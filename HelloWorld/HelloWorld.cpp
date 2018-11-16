@@ -1,16 +1,33 @@
 #include <Arduino.h>
-#include <avr/io.h>
 
 void setup() {
-	DDRB |= (1 << PB5);
+	// Output to 01 on tinkerkit LED
+	DDRB |= (1 << PB3);
+}
+
+// Lets LED blink!
+void loop() {
+	PORTB |= (1 << PB3);
+	delay (500);
+	PORTB &= ~(1 << PB3);
+	delay(500);
+}
+
+//VS
+/*
+#include <Arduino.h>
+
+#define LED_BUILTIN 13
+
+
+void setup() {
+	pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-	PORTB |= (1 << PB5);
-
+	digitalWrite(LED_BUILTIN, HIGH);
 	delay(1000);
-
-	PORTB &= ~(1 << PB5);
-
+	digitalWrite(LED_BUILTIN, LOW);
 	delay(1000);
 }
+*/
