@@ -1,6 +1,6 @@
 # MC-Herpel-Vorlesung
 ## Summary
-Its a GitHub - Page wich contains all Sketches from the Microcontroller Lesson by Mr. Herpel at DHBW Ravensburg.
+Its a GitHub - Page which contains all Sketches from the Microcontroller Lesson by Mr. Herpel at DHBW Ravensburg.
 
 ## Table of Contents
 | Project  | Content |
