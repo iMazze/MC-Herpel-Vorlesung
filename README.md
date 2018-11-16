@@ -5,6 +5,6 @@ Its a GitHub - Page wich contains all Sketches from the Microcontroller Lesson b
 ## Table of Contents
 | Project  | Content |
 | ------------- | ------------- |
-| HelloWorld  | First Project with blinking a LED  |
+| HelloWorld  		| First Project with blinking a LED  |
 | HelloWorld_TinkerKit  | LED state depends on Buttons state  |
-
+| Timer_Example		| A very Simple Timer example |
